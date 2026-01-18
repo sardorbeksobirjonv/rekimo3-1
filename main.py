@@ -13,7 +13,7 @@ from telegram.ext import (
 
 # ===== CONFIG =====
 # Bot tokeningizni kiriting
-TOKEN = "8528647202:AAHrcOe4Zg6lAaxQweqxiVqljXMuqsD6da8"
+TOKEN = "8244674576:AAHJ9IkyOTS99Szk8QVfMlNVS3e1orQ57xo"
 
 # ===== States =====
 TIL, MINTQA, MENU, BOLM, LINK, MATN, VAQT, TAKROR, OLDINDAN, TAHRIR, EXIT_EDIT, YORDAM = range(12)
@@ -106,10 +106,10 @@ STRINGS = {
         "btn_back": "⬅️ Orqaga",
         "ask_bolm": "🔔 <b>Eslatma turini tanlang!</b>\n\nIltimos, quyidagi variantlardan birini tanlang:\n\n👤 <b>Shaxsiy</b> — eslatma faqat sizga keladi\n\n👥 <b>Guruh</b> — eslatma guruhlarda keladi\n\n📢 <b>Kanal</b> — eslatma kanallarda keladi",
         "ask_link": "🔗 <b>{}</b> uchun <b>ID</b> yoki <b>Linkni</b> kiriting:\n\n⚠️ <b>DIQQAT:</b> Botni kanal/guruhga <b>ADMIN</b> qiling, aks holda xabar yubora olmaydi!",
-        "ask_text": "📝 <b>Eslatma matnini kiriting.</b>\n\nMasalan:\nHisobotni topshirish;\nDo'stimning tug'ilgan kuni bilan tabriklash; va hokazo...",
+         "ask_text": "📝 <b>Eslatma matnini kiriting.</b>\n\nMasalan:\n— Hisobotni topshirish;\n— Do'stimning tug'ilgan kuni bilan tabriklash;\n— Har 3 oyda tish schetkalarni almashtirish;\nva hokazo...",
         "ask_time": "⏰ <b>⏳ Eslatma vaqtini kiriting</b>\n\nFormat: 01.01.2026 14:00):",
-        "ask_rep": "🔁 <b>Eslatma takrorlansinmi?</b>\n\nMasalan:\n - Har kuni\n - Har hafta\n - Har oy\nva hokazo...",
-        "ask_pre": "⏰ <b>Oldindan eslatilsinmi?</b>\n\nMasalan:\n - 5 daqiqa oldin\n - 1 kun oldin\n - 1 soat oldin\nva hokozo...\n\n1 d = 1 daqiqa\n1 s = 1 soat\n1 k= 1 kun",
+         "ask_rep": "🔁 <b>Eslatma takrorlansinmi?</b>\n\nMasalan:\n— Har kuni\n— Har hafta\n— Har oy\nva hokazo...",
+        "ask_pre": "⏰ <b>Oldindan eslatilsinmi?</b>\n\nMasalan:\n— 5 daqiqa oldin\n— 1 soat oldin\n— 1 kun oldin\nva hokazo...\n\n1 d = 1 daqiqa\n1 s = 1 soat\n1 k = 1 kun",
         "error_tz": "⚠️ <b>Mintaqa topilmadi</b>, Toshkent vaqti o'rnatildi.",
         "error_time": "❌ <b>Vaqt o'tmishda yoki noto'g'ri!</b>",
         "success": "✅ <b>Eslatma muvaffaqiyatli o'rnatildi!</b>",
@@ -145,10 +145,10 @@ STRINGS = {
             "btn_back": "⬅️ Назад",
             "ask_bolm": "🔔 <b>Выберите тип напоминания!</b>\n\n👤 <b>Личное</b> — придёт только вам\n\n👥 <b>Группа</b> — придёт в группах\n\n📢 <b>Канал</b> — придёт в каналах",
             "ask_link": "🔗 Введите <b>ID</b> или <b>ссылку</b> для <b>{}</b>:\n\n⚠️ <b>ВНИМАНИЕ:</b> Сделайте бота <b>АДМИНИСТРАТОРОМ</b>!",
-            "ask_text": "📝 Введите текст напоминания.\n\nНапример:\nСдать отчёт;\nПоздравить друга с днём рождения;\nМенять зубную щётку каждые 3 месяца;\nи т.д.",
+            "ask_text": "📝 <b>Введите текст напоминания.</b>\n\nНапример:\n— Сдать отчёт;\n— Поздравить друга с днём рождения;\n— Менять зубную щётку каждые 3 месяца;\nи т.д.",
             "ask_time": "⏳ Введите время напоминания.\n\nФормат: 01.01.2026 14:00",
-            "ask_rep": "🔁 Повторять напоминание?\n\nНапример:\nКаждый день\nКаждую неделю\nКаждый месяц\nи т.д.",
-            "ask_pre": "⏰ Напомнить заранее?\n\nНапример:\nза 5 минут\nза 1 час\nза 1 день\nи т.д.\n\n1 м = 1 минута\n1 ч = 1 час\n1 д = 1 день",
+            "ask_rep": "🔁 <b>Повторять напоминание?</b>\n\nНапример:\n— Каждый день\n— Каждую неделю\n— Каждый месяц\nи т.д.",
+             "ask_pre": "⏰ <b>Напомнить заранее?</b>\n\nНапример:\n— за 5 минут\n— за 1 час\n— за 1 день\nи т.д.\n\n1 м = 1 минута\n1 ч = 1 час\n1 д = 1 день",
             "error_tz": "⚠️ <b>Регион не найден</b>, установлено время Ташкента.",
             "error_time": "❌ <b>Время указано неверно или находится в прошлом!</b>",
             "success": "✅ <b>Напоминание успешно установлено!</b>",
@@ -156,6 +156,7 @@ STRINGS = {
             "btn_edit_text": "📝 Текст",
             "btn_edit_time": "⏰ Время",
             "btn_edit_rep": "🔁 Повтор",
+            "btn_edit_pre": "🔔 Заранее",
             "btn_toggle": "🚫 Включить/Выключить",
             "btn_del": "🗑 Удалить",
             "status_on": "<b>✅ Включено</b>",
@@ -336,65 +337,66 @@ def format_reminder_text(uid, r):
 # ...existing code...
 
 # ===== CORE FUNCTIONS =====
-async def send_reminder(context, target, message):
-    """Xabar yuborish funksiyasi - xatoliklarni tekshiradi"""
+async def send_reminder(context, uid, target, msg_type, r):
+    """Xabar yuborish — TIL-SEZUVCHAN ✅"""
     try:
-        await context.bot.send_message(chat_id=target, text=message)
+        lang = users.get(uid, {}).get("lang", "UZ")
+        
+        # Xabar shablonlari
+        if msg_type == "PRE":
+            msg = (
+                f"🔔 OLDINDAN ESLATMA ({r['pre_rem']} min qoldi):\n\n{r['text']}"
+                if lang == "UZ"
+                else f"🔔 ЗАРАНЕЕ НАПОМИНАНИЕ ({r['pre_rem']} мин осталось):\n\n{r['text']}"
+            )
+        else:  # MAIN
+            msg = (
+                f"⏰ VAQTI BO'LDI:\n\n{r['text']}"
+                if lang == "UZ"
+                else f"⏰ ВРЕМЯ ПРИШЛО:\n\n{r['text']}"
+            )
+        
+        await context.bot.send_message(chat_id=target, text=msg)
         return True
     except TelegramError as e:
-        print(f"Xatolik yuz berdi ({target}): {e}")
+        print(f"Xatolik ({target}): {e}")
         return False
+
 
 async def reminder_scheduler(uid, r, context):
     pre_sent = False
-    tz = r["time"].tzinfo  # vaqt zonasi
+    tz = r["time"].tzinfo
 
     while True:
         try:
-            # Agar eslatma o'chirilgan bo'lsa, task to'xtaydi
             if r["id"] not in [x["id"] for x in users.get(uid, {}).get("reminders", [])]:
                 break
 
             now = datetime.now(tz)
 
-            # 🔹 Xavfsiz target_chat
             if r.get("bolm") == get_s(uid, "btn_personal"):
                 target_chat = uid
             else:
-                target_chat = r.get("link")
-                if not target_chat:
-                    print(f"⚠️ WARNING: link topilmadi, uid={uid}, bolm={r.get('bolm')}")
-                    target_chat = uid
+                target_chat = r.get("link", uid)
 
             # 🔔 OLDINDAN eslatma
             if r.get("pre_rem", 0) > 0 and not pre_sent:
                 if now >= (r["time"] - timedelta(minutes=r["pre_rem"])):
                     if r.get("is_active", True):
-                        await send_reminder(
-                            context,
-                            target_chat,
-                            f"🔔 OLDINDAN ESLATMA ({r['pre_rem']} min qoldi):\n\n{r['text']}"
-                        )
+                        await send_reminder(context, uid, target_chat, "PRE", r)  # 👈 uid qo'shildi
                     pre_sent = True
 
             # ⏰ Asosiy vaqt
             if now >= r["time"]:
                 if r.get("is_active", True):
-                    await send_reminder(
-                        context,
+                    await send_reminder(context, uid, target_chat, "MAIN", r)  # 👈 uid qo'shildi
 
-                        target_chat,
-                        f"⏰ VAQTI BO‘LDI:\n\n{r['text']}"
-                    )
-
-                # Agar takrorlansa
                 if r.get("repeat"):
                     r["time"] += r["repeat"]
                     pre_sent = False
                     continue
                 else:
                     r["is_active"] = False
-                    users[uid].pop("edit_target", None)
                     break
 
             await asyncio.sleep(20)
@@ -616,6 +618,7 @@ async def bolm_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # Shaxsiy bo'lim
     if val == get_s(uid, "btn_personal"):
+        users[uid]["current"]["link"] = uid  # ✅ FIX: Add link for personal
         await send(
             update,
             get_s(uid, "ask_text"),  # STRINGS ichida <b>...</b> bo‘lishi kerak
@@ -1005,8 +1008,8 @@ async def tahrir_list(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(msg, reply_markup=ReplyKeyboardMarkup(kb, resize_keyboard=True))
     return TAHRIR
 
-# ...existing code...
 async def tahrir_item_display(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Display reminder details with edit options"""
     uid = update.effective_user.id
     r = users[uid]["edit_target"]
     kb = [
@@ -1015,180 +1018,63 @@ async def tahrir_item_display(update: Update, context: ContextTypes.DEFAULT_TYPE
         [get_s(uid, "btn_toggle"), get_s(uid, "btn_del")],
         [get_s(uid, "btn_back")]
     ]
-    # Use send() so HTML (<b>...</b>) is parsed correctly
     await send(update, format_reminder_text(uid, r), ReplyKeyboardMarkup(kb, resize_keyboard=True))
     return EXIT_EDIT
-# ...existing code...
+
+
 async def exit_edit_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Handle reminder editing options"""
     uid = update.effective_user.id
     text = update.message.text
 
-    # 🔙 Orqaga
+    # 🔙 Back button
     if text == get_s(uid, "btn_back"):
         return await go_back_to_menu(update, context)
 
-    # =================================================
-    # 📌 ESLATMANI TANLASH (ID YO‘Q → MATN ORQALI)
-    # =================================================
+    # Select reminder by text if not already selected
     if "edit_target" not in users[uid]:
         for r in users[uid]["reminders"]:
             if r["text"][:30] in text:
                 users[uid]["edit_target"] = r
                 return await tahrir_item_display(update, context)
 
-    # Agar hali ham tanlanmagan bo‘lsa
     r = users[uid].get("edit_target")
     if not r:
         return MENU
 
-    # =========================
-    # ✏️ TAHRIR AMALLARI
-    # =========================
+    # Edit options
     if text == get_s(uid, "btn_edit_text"):
-        await send(
-            update,
-            get_s(uid, "ask_text"),
-            ReplyKeyboardRemove()
-        )
+        await send(update, get_s(uid, "ask_text"), ReplyKeyboardRemove())
         return MATN
 
     elif text == get_s(uid, "btn_edit_time"):
-        await send(
-            update,
-            get_s(uid, "ask_time"),
-            ReplyKeyboardRemove()
-        )
+        await send(update, get_s(uid, "ask_time"), ReplyKeyboardRemove())
         return VAQT
 
     elif text == get_s(uid, "btn_edit_rep"):
-        await send(
-            update,
-            get_s(uid, "ask_rep"),
-            ReplyKeyboardMarkup(get_rep_kb(uid), resize_keyboard=True)
-        )
+        await send(update, get_s(uid, "ask_rep"), 
+                   ReplyKeyboardMarkup(get_rep_kb(uid), resize_keyboard=True))
         return TAKROR
 
     elif text == get_s(uid, "btn_edit_pre"):
-        await send(
-            update,
-            get_s(uid, "ask_pre"),
-            ReplyKeyboardMarkup(get_pre_kb(uid), resize_keyboard=True)
-        )
+        await send(update, get_s(uid, "ask_pre"), 
+                   ReplyKeyboardMarkup(get_pre_kb(uid), resize_keyboard=True))
         return OLDINDAN
 
-    # ✅ ENG MUHIM JOY — TOGGLE
+    # Toggle active status
     elif text == get_s(uid, "btn_toggle"):
         r["is_active"] = not r["is_active"]
-
-        # 🔁 scheduler qayta sozlanadi
         await reschedule_task(uid, r, context)
-
         return await tahrir_item_display(update, context)
 
-    # 🗑 O‘CHIRISH
+    # Delete reminder
     elif text == get_s(uid, "btn_del"):
         users[uid]["reminders"] = [
             x for x in users[uid]["reminders"]
             if x["id"] != r["id"]
         ]
-
         if r["id"] in tasks.get(uid, {}):
             tasks[uid][r["id"]].cancel()
-
-        users[uid].pop("edit_target", None)
-        return await menu_display(update, context)
-
-    return EXIT_EDIT
-
-async def tahrir_item_display(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    uid = update.effective_user.id
-    r = users[uid]["edit_target"]
-    kb = [
-        [get_s(uid, "btn_edit_text"), get_s(uid, "btn_edit_time")],
-        [get_s(uid, "btn_edit_rep"), get_s(uid, "btn_edit_pre")],
-        [get_s(uid, "btn_toggle"), get_s(uid, "btn_del")],
-        [get_s(uid, "btn_back")]
-    ]
-    # Use send() so HTML (<b>...</b>) is parsed correctly
-    await send(update, format_reminder_text(uid, r), ReplyKeyboardMarkup(kb, resize_keyboard=True))
-    return EXIT_EDIT
-# ...existing code...
-async def exit_edit_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    uid = update.effective_user.id
-    text = update.message.text
-
-    # 🔙 Orqaga
-    if text == get_s(uid, "btn_back"):
-        return await go_back_to_menu(update, context)
-
-    # =================================================
-    # 📌 ESLATMANI TANLASH (ID YO‘Q → MATN ORQALI)
-    # =================================================
-    if "edit_target" not in users[uid]:
-        for r in users[uid]["reminders"]:
-            if r["text"][:30] in text:
-                users[uid]["edit_target"] = r
-                return await tahrir_item_display(update, context)
-
-    # Agar hali ham tanlanmagan bo‘lsa
-    r = users[uid].get("edit_target")
-    if not r:
-        return MENU
-
-    # =========================
-    # ✏️ TAHRIR AMALLARI
-    # =========================
-    if text == get_s(uid, "btn_edit_text"):
-        await send(
-            update,
-            get_s(uid, "ask_text"),
-            ReplyKeyboardRemove()
-        )
-        return MATN
-
-    elif text == get_s(uid, "btn_edit_time"):
-        await send(
-            update,
-            get_s(uid, "ask_time"),
-            ReplyKeyboardRemove()
-        )
-        return VAQT
-
-    elif text == get_s(uid, "btn_edit_rep"):
-        await send(
-            update,
-            get_s(uid, "ask_rep"),
-            ReplyKeyboardMarkup(get_rep_kb(uid), resize_keyboard=True)
-        )
-        return TAKROR
-
-    elif text == get_s(uid, "btn_edit_pre"):
-        await send(
-            update,
-            get_s(uid, "ask_pre"),
-            ReplyKeyboardMarkup(get_pre_kb(uid), resize_keyboard=True)
-        )
-        return OLDINDAN
-
-    # ✅ ENG MUHIM JOY — TOGGLE
-    elif text == get_s(uid, "btn_toggle"):
-        r["is_active"] = not r["is_active"]
-
-        # 🔁 scheduler qayta sozlanadi
-        await reschedule_task(uid, r, context)
-
-        return await tahrir_item_display(update, context)
-
-    # 🗑 O‘CHIRISH
-    elif text == get_s(uid, "btn_del"):
-        users[uid]["reminders"] = [
-            x for x in users[uid]["reminders"]
-            if x["id"] != r["id"]
-        ]
-
-        if r["id"] in tasks.get(uid, {}):
-            tasks[uid][r["id"]].cancel()
-
         users[uid].pop("edit_target", None)
         return await menu_display(update, context)
 
