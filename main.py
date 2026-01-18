@@ -13,7 +13,7 @@ from telegram.ext import (
 
 # ===== CONFIG =====
 # Bot tokeningizni kiriting
-TOKEN = "8244674576:AAHJ9IkyOTS99Szk8QVfMlNVS3e1orQ57xo"
+TOKEN = "8528647202:AAHrcOe4Zg6lAaxQweqxiVqljXMuqsD6da8"
 
 # ===== States =====
 TIL, MINTQA, MENU, BOLM, LINK, MATN, VAQT, TAKROR, OLDINDAN, TAHRIR, EXIT_EDIT, YORDAM = range(12)
